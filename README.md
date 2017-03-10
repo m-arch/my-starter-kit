@@ -2,7 +2,7 @@
 My node starter kit for app development
 
 #The setup
-Using NodeJS, ExpressJS, MongoDB, React, Browserify, Gulp and Flux dispatcher for web apps development
+Using NodeJS, ExpressJS, MongoDB, React, Browserify, Gulp and Flux dispatcher, and nodemon on development for web apps development
 
 # To launch:
 Navigate to folder and create "db" folder.
