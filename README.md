@@ -23,6 +23,12 @@ $ mongo
 > db.createUser({user: "appAdmin", pwd: "123" , roles: ["dbAdmin"]})
 ```
 
+install package via npm
+```
+$ npm install
+```
+
+
 run gulp
 ```
 $ gulp
