@@ -1,9 +1,14 @@
 {
-  "name": "my-starter-kit",
+  "name": "mskit",
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "start": "nodemon app.js"
+  },
+  "config": {
+    "port": "3000",
+    "mode": "dev_mode"
   },
   "repository": {
     "type": "git",
@@ -25,7 +30,8 @@
     "gulp-notify": "^2.2.0",
     "gulp-rename": "^1.2.2",
     "gulp-uglify": "^2.0.0",
-    "gulp-util": "^3.0.7",
+    "gulp-util": "^3.0.7",    
+    "jest": "^19.0.2",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0",
     "watchify": "^3.7.0"

@@ -4,13 +4,13 @@ require('dotenv').config();
 //third party requirements
 const express = require('express');
 const app = express();
-const port = 3000
+var port = process.env.npm_package_config_port || 3000;
 const bodyParser = require('body-parser');
 var Q = require('q');
 // ------------------------------------------------------- END of third party package requirements ------------------------------------------------
 
 //environment varialbes
-var mode = process.env.DEV_ENV
+var mode = process.env.npm_package_config_mode || process.env.DEV_ENV;
 
 //connection to database
 var DB = require('./db')
